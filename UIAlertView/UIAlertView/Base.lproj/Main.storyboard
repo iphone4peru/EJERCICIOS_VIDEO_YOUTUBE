@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="UIAlertView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ejemplo UIAlertView" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sik-gN-KFk">
+                                <rect key="frame" x="223" y="42" width="155" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Fhf-Sm-djH"/>
+                                    <constraint firstAttribute="width" constant="155" id="M7B-Xh-ZNb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingrese su nombre" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KwG-nU-TjQ">
+                                <rect key="frame" x="16" y="89" width="143" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="143" id="iNo-7o-Hvb"/>
+                                    <constraint firstAttribute="height" constant="21" id="m9M-lm-tKD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingrese su nombre" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="J60-Yp-IMK">
+                                <rect key="frame" x="176" y="85" width="408" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="kax-xv-jeL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I1Q-YJ-lAo">
+                                <rect key="frame" x="478" y="137" width="106" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="106" id="Inl-iJ-TbG"/>
+                                    <constraint firstAttribute="height" constant="30" id="r2h-KL-Z8N"/>
+                                </constraints>
+                                <state key="normal" title="Validar Nombre">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="validarNombre:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="L0I-Ec-bdR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="J60-Yp-IMK" firstAttribute="top" secondItem="Sik-gN-KFk" secondAttribute="bottom" constant="22" id="04A-ZR-DQL"/>
+                            <constraint firstItem="I1Q-YJ-lAo" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="8Bc-XV-BYg"/>
+                            <constraint firstItem="KwG-nU-TjQ" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="69" id="Dao-z3-mAS"/>
+                            <constraint firstItem="J60-Yp-IMK" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="HIM-Y7-upz"/>
+                            <constraint firstItem="Sik-gN-KFk" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="22" id="SeU-nD-Nj0"/>
+                            <constraint firstItem="I1Q-YJ-lAo" firstAttribute="top" secondItem="J60-Yp-IMK" secondAttribute="bottom" constant="22" id="Uh1-sZ-10g"/>
+                            <constraint firstItem="KwG-nU-TjQ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="VQj-gT-FKa"/>
+                            <constraint firstItem="J60-Yp-IMK" firstAttribute="leading" secondItem="KwG-nU-TjQ" secondAttribute="trailing" constant="17" id="Wrl-yg-8B4"/>
+                            <constraint firstAttribute="centerX" secondItem="Sik-gN-KFk" secondAttribute="centerX" id="fzU-go-YIy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cajaNombre" destination="J60-Yp-IMK" id="Igd-GK-cIX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
