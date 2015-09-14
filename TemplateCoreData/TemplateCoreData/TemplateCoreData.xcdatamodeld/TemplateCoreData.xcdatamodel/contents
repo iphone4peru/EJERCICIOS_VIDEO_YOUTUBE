@@ -15,7 +15,7 @@
         <relationship name="productos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Producto" inverseName="store" inverseEntity="Producto" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Store" positionX="-3278" positionY="-1845" width="128" height="118"/>
-        <element name="Producto" positionX="-3089" positionY="-1845" width="128" height="118"/>
+        <element name="Producto" positionX="-3042" positionY="-1845" width="128" height="118"/>
+        <element name="Store" positionX="-3251" positionY="-1845" width="128" height="118"/>
     </elements>
 </model>

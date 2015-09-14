@@ -2,7 +2,7 @@
 //  Producto.swift
 //  TemplateCoreData
 //
-//  Created by Christian Quicano on 9/12/15.
+//  Created by Christian Quicano on 9/13/15.
 //  Copyright (c) 2015 iphone4peru.com. All rights reserved.
 //
 
@@ -11,10 +11,10 @@ import CoreData
 
 class Producto: NSManagedObject {
 
-    @NSManaged var productoId: NSNumber
-    @NSManaged var precio: NSNumber
-    @NSManaged var nombre: String
     @NSManaged var descripcion: String
+    @NSManaged var nombre: String
+    @NSManaged var precio: NSNumber
+    @NSManaged var productoId: NSNumber
     @NSManaged var store: Store
 
 }

@@ -16,16 +16,25 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
-        let managedContext = appDelegate.managedObjectContext!
+        let managedObjectContext = appDelegate.managedObjectContext!
         
-        //crear una entidad con coredata
-        let store1 = NSEntityDescription.insertNewObjectForEntityForName("Store", inManagedObjectContext: managedContext) as! Store
-        store1.latitud = -12.4565
-        store1.longitud = -17.2344
-        store1.direccion = "Av. Arequipa 2450, oficina 303 - Lince - Perú"
-        //store1.productos
-        managedContext.save(nil)
+//        let store1 = NSEntityDescription.insertNewObjectForEntityForName("Store", inManagedObjectContext: managedObjectContext) as! Store
+//        store1.latitud = NSNumber(float: -12.4565)
+//        store1.longitud = NSNumber(float: -17.4465)
+//        store1.direccion = "Av. Arequipa 2450, oficina 303 - Lince - Perú"
+//        
+//        managedObjectContext.delete(store1)
+//        managedObjectContext.save(nil)
         
+        let request = NSFetchRequest(entityName: "Store")
+        let arrayStores = managedObjectContext.executeFetchRequest(request, error: nil) as! [Store]
+        
+        if let store = arrayStores.first {
+            managedObjectContext.deleteObject(store)
+            managedObjectContext.save(nil)
+        }
+        
+        println("total: \(arrayStores.count)")
         
     }
 
