@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "b017a7850cc3cafa0676225bd01f5895"
+build_time: [502770172, 427087000]
+inputs:
+  "/Users/cquicano/Documents/CURSOS-IPHONE4PERU/GITHUB/SpotLightSearch/SpotLightSearch/AppDelegate.swift": [502768499, 0]
+  "/Users/cquicano/Documents/CURSOS-IPHONE4PERU/GITHUB/SpotLightSearch/SpotLightSearch/SpotlightSearchManager.swift": [502769992, 0]
+  "/Users/cquicano/Documents/CURSOS-IPHONE4PERU/GITHUB/SpotLightSearch/SpotLightSearch/ViewController.swift": [502770172, 0]

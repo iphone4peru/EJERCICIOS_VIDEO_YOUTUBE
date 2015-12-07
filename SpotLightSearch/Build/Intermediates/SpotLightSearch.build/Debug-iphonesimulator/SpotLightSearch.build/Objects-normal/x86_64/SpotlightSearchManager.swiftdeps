@@ -1,0 +1,187 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SpotlightSearchManager"
+- "User"
+provides-nominal:
+- "C15SpotLightSearch22SpotlightSearchManager"
+- "V15SpotLightSearch4User"
+provides-member:
+- ["C15SpotLightSearch22SpotlightSearchManager", ""]
+- ["V15SpotLightSearch4User", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "UIImage"
+- !private "CSSearchableIndex"
+- "SpotlightSearchManager"
+- "String"
+- "User"
+- !private "CSSearchableItemAttributeSet"
+- !private "UIImagePNGRepresentation"
+- !private "kUTTypeData"
+- !private "Array"
+- !private "CSSearchableItem"
+- "StringLiteralType"
+depends-member:
+- !private ["PSs9AnyObject", "CSSearchableIndex"]
+- !private ["PSs9AnyObject", "CSSearchableItem"]
+- !private ["PSs9AnyObject", "CSSearchableItemAttributeSet"]
+- !private ["PSs9AnyObject", "UIImage"]
+- !private ["PSs9AnyObject", "UIImagePNGRepresentation"]
+- !private ["PSs9AnyObject", "defaultSearchableIndex"]
+- !private ["PSs9AnyObject", "indexSearchableItems"]
+- !private ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "kUTTypeData"]
+- !private ["PSs9AnyObject", "phoneNumbers"]
+- !private ["PSs9AnyObject", "supportsPhoneCall"]
+- !private ["PSs9AnyObject", "thumbnailData"]
+- !private ["PSs9AnyObject", "title"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["PSs23ArrayLiteralConvertible", "Element"]
+- !private ["CSo8CFString", "deinit"]
+- !private ["CSo17CSSearchableIndex", "defaultSearchableIndex"]
+- !private ["CSo17CSSearchableIndex", "indexSearchableItems"]
+- !private ["CSo16CSSearchableItem", "init"]
+- !private ["CSo28CSSearchableItemAttributeSet", "init"]
+- !private ["CSo28CSSearchableItemAttributeSet", "phoneNumbers"]
+- !private ["CSo28CSSearchableItemAttributeSet", "supportsPhoneCall"]
+- !private ["CSo28CSSearchableItemAttributeSet", "thumbnailData"]
+- !private ["CSo28CSSearchableItemAttributeSet", "title"]
+- !private ["PSs11CVarArgType", "defaultSearchableIndex"]
+- !private ["PSs11CVarArgType", "indexSearchableItems"]
+- !private ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "phoneNumbers"]
+- !private ["PSs11CVarArgType", "supportsPhoneCall"]
+- !private ["PSs11CVarArgType", "thumbnailData"]
+- !private ["PSs11CVarArgType", "title"]
+- !private ["PSs14CollectionType", "Element"]
+- !private ["PSs28CustomDebugStringConvertible", "Element"]
+- !private ["PSs23CustomStringConvertible", "Element"]
+- !private ["PSs23CustomStringConvertible", "defaultSearchableIndex"]
+- !private ["PSs23CustomStringConvertible", "indexSearchableItems"]
+- !private ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "phoneNumbers"]
+- !private ["PSs23CustomStringConvertible", "supportsPhoneCall"]
+- !private ["PSs23CustomStringConvertible", "thumbnailData"]
+- !private ["PSs23CustomStringConvertible", "title"]
+- !private ["PSs9Equatable", "defaultSearchableIndex"]
+- !private ["PSs9Equatable", "indexSearchableItems"]
+- !private ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "phoneNumbers"]
+- !private ["PSs9Equatable", "supportsPhoneCall"]
+- !private ["PSs9Equatable", "thumbnailData"]
+- !private ["PSs9Equatable", "title"]
+- !private ["PSs8Hashable", "defaultSearchableIndex"]
+- !private ["PSs8Hashable", "indexSearchableItems"]
+- !private ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "phoneNumbers"]
+- !private ["PSs8Hashable", "supportsPhoneCall"]
+- !private ["PSs8Hashable", "thumbnailData"]
+- !private ["PSs8Hashable", "title"]
+- !private ["PSs9Indexable", "Element"]
+- !private ["PSs21MutableCollectionType", "Element"]
+- !private ["PSs16MutableIndexable", "Element"]
+- !private ["PSs16MutableSliceable", "Element"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "phoneNumbers"]
+- !private ["PSo8NSCoding", "supportsPhoneCall"]
+- !private ["PSo8NSCoding", "thumbnailData"]
+- !private ["PSo8NSCoding", "title"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "phoneNumbers"]
+- !private ["PSo9NSCopying", "supportsPhoneCall"]
+- !private ["PSo9NSCopying", "thumbnailData"]
+- !private ["PSo9NSCopying", "title"]
+- !private ["CSo8NSNumber", "deinit"]
+- !private ["CSo8NSObject", "defaultSearchableIndex"]
+- !private ["CSo8NSObject", "indexSearchableItems"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "phoneNumbers"]
+- !private ["CSo8NSObject", "supportsPhoneCall"]
+- !private ["CSo8NSObject", "thumbnailData"]
+- !private ["CSo8NSObject", "title"]
+- !private ["PSo16NSObjectProtocol", "defaultSearchableIndex"]
+- !private ["PSo16NSObjectProtocol", "indexSearchableItems"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "phoneNumbers"]
+- !private ["PSo16NSObjectProtocol", "supportsPhoneCall"]
+- !private ["PSo16NSObjectProtocol", "thumbnailData"]
+- !private ["PSo16NSObjectProtocol", "title"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "phoneNumbers"]
+- !private ["PSo14NSSecureCoding", "supportsPhoneCall"]
+- !private ["PSo14NSSecureCoding", "thumbnailData"]
+- !private ["PSo14NSSecureCoding", "title"]
+- !private ["Sq", "deinit"]
+- !private ["PSs30RangeReplaceableCollectionType", "Element"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["C15SpotLightSearch22SpotlightSearchManager", "CSSearchableIndex"]
+- !private ["C15SpotLightSearch22SpotlightSearchManager", "CSSearchableItem"]
+- !private ["C15SpotLightSearch22SpotlightSearchManager", "CSSearchableItemAttributeSet"]
+- ["C15SpotLightSearch22SpotlightSearchManager", "String"]
+- !private ["C15SpotLightSearch22SpotlightSearchManager", "UIImage"]
+- !private ["C15SpotLightSearch22SpotlightSearchManager", "UIImagePNGRepresentation"]
+- ["C15SpotLightSearch22SpotlightSearchManager", "User"]
+- ["C15SpotLightSearch22SpotlightSearchManager", "addUserToSearch"]
+- ["C15SpotLightSearch22SpotlightSearchManager", "deinit"]
+- ["C15SpotLightSearch22SpotlightSearchManager", "init"]
+- !private ["C15SpotLightSearch22SpotlightSearchManager", "kUTTypeData"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["CSo7UIImage", "init"]
+- ["V15SpotLightSearch4User", "init"]
+- ["V15SpotLightSearch4User", "nombre"]
+- ["V15SpotLightSearch4User", "nombreFoto"]
+- ["V15SpotLightSearch4User", "numeroTelefono"]
+- ["V15SpotLightSearch4User", "profesion"]
+- !private ["PSs10_ArrayType", "Element"]
+- !private ["PSs24_DestructorSafeContainer", "Element"]
+- !private ["PSs24_ImageLiteralConvertible", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "Element"]
+- !private ["PSs12_Reflectable", "Element"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "CSo8CFString"
+- !private "CSo17CSSearchableIndex"
+- !private "CSo16CSSearchableItem"
+- !private "CSo28CSSearchableItemAttributeSet"
+- !private "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- !private "PSs28CustomDebugStringConvertible"
+- !private "PSs23CustomStringConvertible"
+- !private "PSs9Equatable"
+- !private "PSs8Hashable"
+- !private "PSs9Indexable"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo8NSNumber"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "Sq"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs12SequenceType"
+- "C15SpotLightSearch22SpotlightSearchManager"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "CSo7UIImage"
+- "V15SpotLightSearch4User"
+- !private "PSs10_ArrayType"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs24_ImageLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "26093d814cde433e722876da127a728f"
